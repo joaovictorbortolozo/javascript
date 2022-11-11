@@ -73,20 +73,39 @@ console.log('============')
 console.log(10 > 3 && 10 > 15) // operador E - todas as espressões
 //devem ser verdadeiras para o resultado ser vedadeiro
 
-console.log(10 > 3 || 10 > 15 || 10 > 8) //Operador ou (OR) - com o operador OU apenas uma expressão precisa ser verdadeira para o resultado se verdadeiro 
+console.log(10 > 3 || 10 > 15 || 10 > 8) //Operador ou (OR) - com o operador OU apenas uma expressão precisa ser verdadeira 
+//para o resultado se verdadeiro 
 
-console.log( !10 > 3) // operador  NÃO (NOT) - o operador NOT inverte o resultado da expressão, se for verdadeiro ele inverte para e se falso ele inverte para verdadeiro
+console.log(!10 > 3) // operador  NÃO (NOT) - o operador NOT inverte o resultado da expressão, se for verdadeiro ele inverte 
+//para e se falso ele inverte para verdadeiro
 
+//alert("Olá mundo")
 
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
+//document.write("<h3>Olá mundo</h3>")
 
+function Rosa() {
+
+    // inserir um valor em um elemento da pagina
+    document.getElementById('titulo').
+        innerHTML = 'Aula 02 de JS'
+
+    document.getElementById('texto').
+        innerHTML = 'Vamos estudar a interação com DOM'
+
+    document.body.style.backgroundColor = 'violet'
+    document.body.style.color = 'white'
+    document.getElementById('titulo').style.color = ('yellow')
+
+    //pegar um valor de um elemento na pagino
+    let titulo = document.getElementById('titulo').
+        innerHTML
+
+    console.log(titulo)
+}
+
+function Laranja(){
+document.body.style.backgroundColor = 'orangered'
+document.body.style.color = 'lightblue'
+}
 
 
